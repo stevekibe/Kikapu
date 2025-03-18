@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Kikapu"
         tools:targetApi="31">
         <activity
+            android:name=".DisplayProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProductActivity"
+            android:exported="false" />
+        <activity
             android:name=".CartActivity"
             android:exported="false" />
         <activity
@@ -24,7 +30,7 @@
         <activity
             android:name=".AdminActivity"
             android:exported="false"
-            android:theme="@style/Theme.Kikapu"/>
+            android:theme="@style/Theme.Kikapu" />
         <activity
             android:name=".UserActivity"
             android:exported="false" />

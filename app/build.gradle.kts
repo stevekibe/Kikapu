@@ -48,6 +48,7 @@ dependencies {
 
     implementation (libs.glide)
     annotationProcessor (libs.annotationProcessor)
+    implementation (libs.firebaseUiFirestore)
 
 
 }
